@@ -1,6 +1,7 @@
 echo ".bashrc.local.surya"
 
 set history=10000
+PROMPT_DIRTRIM=2
 
 ########################################################
 ##					ENV VAR							   #
@@ -32,6 +33,6 @@ alias dsk_usg="du -h | sort -rh | head -15"
 ########################################################
 alias glg="git log --oneline --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''	%C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
 alias gst="git status"
-
+alias gls="git ls-tree --full-tree -r --name-only HEAD"
 ########################################################
 #echo ".bashrc.local.surya <-- END"

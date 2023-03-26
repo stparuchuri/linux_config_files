@@ -7,9 +7,7 @@ PROMPT_DIRTRIM=2
 ##					ENV VAR							   #
 ########################################################
 d="/mnt/d/"
-src="/mnt/d/Sources/"
-repo="/mnt/d/Sources/repos"
-repo_docs="/mnt/d/Sources/repos/docs/"
+repo="/mnt/ebs_v1/sourceCode/"
 
 ########################################################
 ##					SHORT HANDS/ALIASes				   #
